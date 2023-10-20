@@ -1,6 +1,14 @@
 :root {
-    --main-color: ;
-    --text-color: ;
-    --accent-color: ;
+    --main-color: #FFBE0B;
+    --text-color: #fff;
+    --accent-color: #868695;
+    --bg-color: #0E0E2C;
+    --accent-bg-color: #172656;
+    --accent-text-color: #3A86FF;
 }
+
+/* * {
+    background-color: var(--bg-color);
+} */
+
 
