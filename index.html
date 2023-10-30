@@ -13,158 +13,174 @@
     <title>Shoipy</title>
   </head>
   <body>
-    <header>
-      <p>shoipy</p>
-      <nav>
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Product</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">Contact</a></li>
+    <header class="header">
+      <img src="./images/logo.png" alt="Shopiy" class="logo" />
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a href="#" class="navigation-link">About</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="navigation-link">Product</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="navigation-link">Service</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="navigation-link">Contact</a>
+          </li>
         </ul>
-        <ul>
-          <li><button type="button">Sign in</button></li>
-          <li><button type="button">Try free</button></li>
+        <ul class="header-list">
+          <li class="header-item">
+            <button type="button" class="sign-in-btn">Sign in</button>
+          </li>
+          <li class="header-item">
+            <button type="button" class="try-free-btn">Try free</button>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
-        <p>100% SATISFIED GUARANTEE</p>
-        <img src="./images/boy.jpg" alt="boy in yellow hat" />
-        <h1>
-          Power up your <br />
-          shopify products
-        </h1>
-        <p>
-          More than 90,000+ companies trust our business. Get <br />
-          help from a dedicated shopify developer today.
+      <section class="hero">
+        <img src="./images/boy.jpg" alt="boy in yellow hat" class="hero-img" />
+        <p class="section-subtitle">100% SATISFIED GUARANTEE</p>
+        <h1 class="hero-title">Power up your shopify products</h1>
+        <p class="hero-text">
+          More than 90,000+ companies trust our business. Get help from a
+          dedicated shopify developer today.
         </p>
 
-        <div>
-          <img src="./images/girl.jpg" alt="girl" />
-          <h3>Margaret Philips</h3>
-          <p>Watch our best services</p>
-          <button type="button">▶️</button>
-        </div>
-        <div>
-          <h3>Make Progress</h3>
-          <p>with opening plans</p>
-          <button type="button">Buy Plan</button>
-        </div>
-        <form>
+        <ul>
+          <li>
+            <img src="./images/girl.jpg" alt="girl" class="hero-item-img" />
+            <h3 class="section-item-title">Margaret Philips</h3>
+            <p class="hero-item-info">Watch our best services</p>
+            <button type="button" class="hero-item-btn">▶️</button>
+          </li>
+          <li>
+            <h3 class="section-item-title">Make Progress</h3>
+            <p class="hero-item-info">with opening plans</p>
+            <button type="button" class="hero-item-btn">Buy Plan</button>
+          </li>
+        </ul>
+        <form class="hero-form">
           <input
             type="email"
             name="email"
             required
             placeholder="Your email address"
+            class="hero-form-input"
           />
-          <button type="submit">Sign up</button> <br />
+          <button type="submit" class="hero-form-btn">Sign up</button>
         </form>
-        <div>
-          <p>30 days free-trial</p>
-          <p>No credit card required</p>
+        <div class="hero-wrapper">
+          <p class="hero-wrapper-text">30 days free-trial</p>
+          <p class="hero-wrapper-text">No credit card required</p>
         </div>
       </section>
-      <section style="padding: 40px">
-        <img src="./images/smartphone.jpg" alt="smartphone" />
-        <p>SERVICES WE PROVIDES</p>
-        <h2>
-          Build on both: <br />
-          Google web stories <br />
-          and AMP website <br />
-          format
+      <section class="services">
+        <img
+          src="./images/smartphone.jpg"
+          alt="smartphone"
+          class="services-img"
+        />
+        <p class="section-subtitle">SERVICES WE PROVIDES</p>
+        <h2 class="section-title">
+          Build on both: Google web stories and AMP website format
         </h2>
-        <p>
-          5660 <br />
+        <p class="services-product-sale">
+          <span class="sevices-product-amount">5660</span>
           Product sale per day working and sales
         </p>
         <hr />
-        <p>
-          4M+ <br />
+        <p class="services-download">
+          <span class="services-download-amount">4M+</span>
           Downloaded saled in your good.
         </p>
       </section>
-      <section>
-        <p>WHAT WE DO</p>
-        <h2>
-          Our creative process <br />
-          for your business
-        </h2>
-        <p>
+      <section class="what">
+        <p class="section-subtitle">WHAT WE DO</p>
+        <h2 class="section-title">Our creative process for your business</h2>
+        <p class="what-text">
           As our motto, we always provide the best service especially for you
-          <br />
           and your company by growing your company to be better.
         </p>
-        <ul>
-          <li>
-            <h3>Grow your traffic</h3>
-            <p>We always help your company to grow with us.</p>
+        <ul class="what-list">
+          <li class="what-item">
+            <h3 class="section-item-title">Grow your traffic</h3>
+            <p class="what-item-text">
+              We always help your company to grow with us.
+            </p>
           </li>
-          <li>
-            <h3>Content for sales</h3>
-            <p>Every company that we handel. We always content more sales.</p>
+          <li class="what-item">
+            <h3 class="section-item-title">Content for sales</h3>
+            <p class="what-item-text">
+              Every company that we handel. We always content more sales.
+            </p>
           </li>
-          <li>
-            <h3>Reporting&analytics</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing</p>
+          <li class="what-item">
+            <h3 class="section-item-title">Reporting&analytics</h3>
+            <p class="what-item-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing
+            </p>
           </li>
-          <li>
-            <h3>Better Conversion</h3>
-            <p>We always help your company to grow with us.</p>
+          <li class="what-item">
+            <h3 class="section-item-title">Better Conversion</h3>
+            <p class="what-item-text">
+              We always help your company to grow with us.
+            </p>
           </li>
         </ul>
       </section>
-      <section>
-        <img src="./images/sofa.jpg" alt="sofa" />
-        <p>OUR PRODUCT STORIES</p>
-        <h2>
-          Why product <br />
-          stories? Learn more
-        </h2>
-        <ul>
-          <li>
-            <h3>SEO optimized, high Google work</h3>
-            <p>
+      <section class="product">
+        <img src="./images/sofa.jpg" alt="sofa" class="product-img" />
+        <p class="section-subtitle">OUR PRODUCT STORIES</p>
+        <h2 class="section-title">Why product stories? Learn more</h2>
+        <ul class="product-list">
+          <li class="product-item">
+            <h3 class="section-item-title">SEO optimized, high Google work</h3>
+            <p class="product-item-text">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
               eligendi laborum perspiciatis? Quaerat, reiciendis ab est
               voluptate possimus dignissimos enim expedita ea ex amet eos! Est
               obcaecati ipsum voluptatum temporibus?
             </p>
           </li>
-          <li>
-            <h3>Fast loading, low bounce rates</h3>
-            <p>
+          <li class="product-item">
+            <h3 class="section-item-title">Fast loading, low bounce rates</h3>
+            <p class="product-item-text">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Possimus, culpa. Praesentium placeat quas laborum nam maiores quis
               quaerat dolores quidem voluptatum? Alias, sed explicabo animi
               error ad quasi dignissimos est.
             </p>
           </li>
-          <li>
-            <h3>SEO optimized, high Google work</h3>
-            <p>
+          <li class="product-item">
+            <h3 class="section-item-title">SEO optimized, high Google work</h3>
+            <p class="product-item-text">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit.
               Possimus, culpa. Praesentium placeat quas laborum nam maiores quis
               quaerat dolores quidem voluptatum? Alias, sed explicabo animi
               error ad quasi digni>
             </p>
 
-            <div>
-              <p>28</p>
-              <p>Total sales</p>
-            </div>
+            <img
+              src="./images/sales.jpg"
+              alt="Sales"
+              class="product-sales-img"
+            />
           </li>
         </ul>
       </section>
-      <section>
-        <img src="./images/consultation.jpg" alt="Консультатор" />
-        <p>CREATIVE PROCESS</p>
-        <h2>
-          Know your ads <br />
-          inside & out-perform
-        </h2>
-        <p>
+      <section class="process">
+        <img
+          src="./images/consultation.jpg"
+          alt="Консультатор"
+          class="process-img"
+        />
+        <p class="section-subtitle">CREATIVE PROCESS</p>
+        <h2 class="section-title">Know your ads inside & out-perform</h2>
+        <p class="process-text">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
           since the 1500s, when an unknown printer took a galley of type and
@@ -173,42 +189,58 @@
         </p>
       </section>
     </main>
-    <footer>
-      <h2>Contact with us</h2>
-      <p>More than 50,000+ companies trusted our business</p>
-      <form>
+    <footer class="footer">
+      <h3 class="footer-title">Contact with us</h3>
+      <p class="footer-info">
+        More than 50,000+ companies trusted our business
+      </p>
+      <form class="footer-form">
         <textarea
           name="massage"
           cols="30"
           rows="10"
           placeholder="Type your messages.."
           required
+          class="footer-comment"
         ></textarea>
-        <button type="submit">Get Started</button>
+        <button type="submit" class="footer-btn">Get Started</button>
       </form>
-      <p>shoipy</p>
-      <nav>
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Product</a></li>
-          <li><a href="#">Service</a></li>
-          <li><a href="#">Contact</a></li>
+      <img src="./images/logo.png" alt="Shopiy" class="logo" />
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a href="#" class="navigation-link">About</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="navigation-link">Product</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="navigation-link">Service</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="navigation-link">Contact</a>
+          </li>
         </ul>
       </nav>
-      <ul>
-        <li>
-          <a href="https://pl-pl.facebook.com/"> Facebook </a>
+      <ul class="footer-list">
+        <li class="footer-item">
+          <a href="https://pl-pl.facebook.com/" class="footer-link">
+            Facebook
+          </a>
         </li>
 
-        <li>
-          <a href="https://twitter.com/"> Twitter </a>
+        <li class="footer-item">
+          <a href="https://twitter.com/" class="footer-link"> Twitter </a>
         </li>
-        <li>
-          <a href="https://www.instagram.com/"> Instagram </a>
+        <li class="footer-item">
+          <a href="https://www.instagram.com/" class="footer-link">
+            Instagram
+          </a>
         </li>
-        <li>
+        <li class="footer-item">
           <a
             href="https://pl.linkedin.com/?original_referer=https%3A%2F%2Fpl.search.yahoo.com%2F"
+            class="footer-link"
           >
             Linkedin
           </a>
