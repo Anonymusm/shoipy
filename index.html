@@ -50,19 +50,17 @@
           dedicated shopify developer today.
         </p>
 
-        <ul>
-          <li>
-            <img src="./images/girl.jpg" alt="girl" class="hero-item-img" />
-            <h3 class="section-item-title">Margaret Philips</h3>
-            <p class="hero-item-info">Watch our best services</p>
-            <button type="button" class="hero-item-btn">▶️</button>
-          </li>
-          <li>
-            <h3 class="section-item-title">Make Progress</h3>
-            <p class="hero-item-info">with opening plans</p>
-            <button type="button" class="hero-item-btn">Buy Plan</button>
-          </li>
-        </ul>
+        <div class="hero-wrapper">
+          <img src="./images/girl.jpg" alt="girl" class="hero-item-img" />
+          <h3 class="section-item-title">Margaret Philips</h3>
+          <p class="hero-item-info">Watch our best services</p>
+          <button type="button" class="hero-item-btn">▶️</button>
+        </div>
+        <div class="hero-wrapper">
+          <h3 class="section-item-title">Make Progress</h3>
+          <p class="hero-item-info">with opening plans</p>
+          <button type="button" class="hero-item-btn">Buy Plan</button>
+        </div>
         <form class="hero-form">
           <input
             type="email"
@@ -73,10 +71,14 @@
           />
           <button type="submit" class="hero-form-btn">Sign up</button>
         </form>
-        <div class="hero-wrapper">
-          <p class="hero-wrapper-text">30 days free-trial</p>
-          <p class="hero-wrapper-text">No credit card required</p>
-        </div>
+        <ul class="hero-list">
+          <li class="hero-item">
+            <p class="hero-item-text">30 days free-trial</p>
+          </li>
+          <li class="hero-item">
+            <p class="hero-item-text">No credit card required</p>
+          </li>
+        </ul>
       </section>
       <section class="services">
         <img
@@ -187,24 +189,24 @@
           scrambled it to make a type specimen book. It has survived not only
           five centuries,
         </p>
+        <h3 class="contact-title">Contact with us</h3>
+        <p class="contact-info">
+          More than 50,000+ companies trusted our business
+        </p>
+        <form class="process-form">
+          <textarea
+            name="massage"
+            cols="30"
+            rows="10"
+            placeholder="Type your messages.."
+            required
+            class="process-comment"
+          ></textarea>
+          <button type="submit" class="process-btn">Get Started</button>
+        </form>
       </section>
     </main>
     <footer class="footer">
-      <h3 class="footer-title">Contact with us</h3>
-      <p class="footer-info">
-        More than 50,000+ companies trusted our business
-      </p>
-      <form class="footer-form">
-        <textarea
-          name="massage"
-          cols="30"
-          rows="10"
-          placeholder="Type your messages.."
-          required
-          class="footer-comment"
-        ></textarea>
-        <button type="submit" class="footer-btn">Get Started</button>
-      </form>
       <img src="./images/logo.png" alt="Shopiy" class="logo" />
       <nav class="navigation">
         <ul class="navigation-list">
@@ -222,25 +224,25 @@
           </li>
         </ul>
       </nav>
-      <ul class="footer-list">
-        <li class="footer-item">
-          <a href="https://pl-pl.facebook.com/" class="footer-link">
+      <ul class="social-link-list">
+        <li class="social-link-item">
+          <a href="https://pl-pl.facebook.com/" class="social-link">
             Facebook
           </a>
         </li>
 
-        <li class="footer-item">
-          <a href="https://twitter.com/" class="footer-link"> Twitter </a>
+        <li class="social-link-item">
+          <a href="https://twitter.com/" class="social-link"> Twitter </a>
         </li>
-        <li class="footer-item">
-          <a href="https://www.instagram.com/" class="footer-link">
+        <li class="social-link-item">
+          <a href="https://www.instagram.com/" class="social-link">
             Instagram
           </a>
         </li>
-        <li class="footer-item">
+        <li class="social-link-item">
           <a
             href="https://pl.linkedin.com/?original_referer=https%3A%2F%2Fpl.search.yahoo.com%2F"
-            class="footer-link"
+            class="social-link"
           >
             Linkedin
           </a>
